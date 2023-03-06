@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': '組長:41023108 柯惠心 組員:41023110紀宜馨 \n 倉儲: https://github.com/KEHUEISIN/2a-pj1ag3.git \n 網站:', 'tags': '', 'url': 'About.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '組長:41023108 柯惠心 組員:41023110紀宜馨 \n 倉儲: https://github.com/KEHUEISIN/2a-pj1ag3.git \n 網站: https://mdecd2023.github.io/2a-pj1ag3/content/index.html/ \n', 'tags': '', 'url': 'About.html'}]};
