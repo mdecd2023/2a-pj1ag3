@@ -45,4 +45,17 @@
 <p>5.試驗與測試：目標製造出兩球體撞擊。</p>
 <p>6.產品開發流程範例：<a href="https://mde.tw/pjcopsim/content/bubbleRobTutorial">https://mde.tw/pjcopsim/content/bubbleRobTutorial</a></p>
 <p>7.團隊有哪些成員：柯惠心.紀宜馨</p>
-<h1><strong>w4</strong></h1>
+<h1>w4</h1>
+<h4><span style="font-weight: 400;">4.1.2 可碰撞对象</span></h4>
+<p><span style="font-weight: 400;">  可碰撞物体是可以测试与其他可碰撞物体碰撞的物体，即将记录碰撞状态的物体。 这并不意味着它们会对碰撞做出响应（即可响应），这是不同的。 可碰撞对象包括：</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">虚拟对象</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">形状</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">OC树</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">点云</span></li>
+</ul>
+<p><span style="font-weight: 400;">  由于基于点，因此虚拟对象和点云只能与OC树（基于体积）发生碰撞。</span></p>
+<p><span style="font-weight: 400;">  集合也是可碰撞的，因为它们可能包含可碰撞的对象。</span></p>
+<p><span style="font-weight: 400;">  可碰撞对象可以单独启用或禁用其可碰撞属性（默认情况下为非纯图形、OC树和点云启用）。 这可以在对象通用属性中设置，也可以通过sim.setObjectSpecialProperty API函数设置。</span></p>
+<p><span style="font-weight: 400;">  此外，根据可碰撞对象的相关模型特性（如果它们是模型的一部分），可碰撞对象的可碰撞特性可以被替代。 有关详细信息，请参考模型对话框。</span></p>
+<p><span style="font-weight: 400;">參考出處:</span></p>
